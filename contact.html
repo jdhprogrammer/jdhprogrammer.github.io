@@ -7,7 +7,7 @@
     <meta name="author" content="" />
     <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico" />
 
-    <title>JDH: Full Stack Developer</title>
+    <title>David Harris: Full Stack Developer</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/" />
 
@@ -28,16 +28,19 @@
     <!-- Customized CSS -->
     <link rel="stylesheet" href="jdh_style.css">
 
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
     <script src="https://kit.fontawesome.com/447e525a7d.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+
+
 </head>
 
 <body cz-shortcut-listen="true">
 
     <header>
         <div class="m-auto text-center" style=" height: 150px;"><img src="Assets/Images/jdh-01.png" class="img-fluid"
-                style="height: 150px;" alt="JDHarris Signature"></div>
-        <!-- Fixed navbar -->
+            style="height: 150px;" alt="JDHarris Signature"></div>
+    <!-- Fixed navbar -->
         <nav role="navigation" class="navbar-top navbar-expand-md navbar-dark bg-dark pl-3 pr-3 py-2"
             style="font-family: 'Catamaran', sans-serif; position: absolute; top: 150; left: 0; right: 0; margin: auto; z-index: 1;">
             <!-- <a class="navbar-brand" style="font-size: 24px;" href="#">David Harris</a> -->
@@ -48,9 +51,6 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
-                    <!-- <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">ABOUT</a>
                     </li>
@@ -64,72 +64,113 @@
             </div>
         </nav>
 
-        <div class="jumbotron jumbotron-fluid" style="position: relative; top: 56px;">
-            <div class="container" style="color: white; ">
-                <h1 class="display-4">James David Harris</h1>
-                <p class="lead" style="font-size: 30px; ">Dallas based FULL STACK Developer</p>
-            </div>
-        </div>
-
     </header>
 
     <!-- Begin page content -->
     <main role="main" class="container">
 
-        <div class="row text-center pb-4 py-5" style="font-size: 28px; font-style: italic;">
-            <div class="col-12">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quis, neque repudiandae
-                rem dignissimos velit tenetur nemo doloremque rerum veritatis in culpa, dolor eaque alias vero eius
-                perferendis porro odio. Illo ullam odio omnis. Quas, dolores! Aspernatur exercitationem mollitia ullam
-                labore rem dolorum ducimus voluptatum libero neque doloremque. Quis aliquam voluptas id voluptatum ad
-                officia nulla voluptatem debitis dolores doloremque similique voluptatibus asperiores quasi repellendus
-                architecto explicabo officiis, doloribus quos delectus harum magnam possimus alias!"</div>
-        </div>
-        <div class="row justify-content-around text-center py-2">
-            <div class="col-12 col-md-12 col-lg-3">
-                <div class="row">
-                    <div class="col callouts">CREATIVE</div>
-                </div>
-                <div class="row">
-                    <div class="col text-center">
-                        <img class="img-fluid rounded mx-auto d-block" src="Assets/Images/callout-creative.jpg" alt="">
+        <div class="spacer py-4"></div>
+        <!--Section: Contact v.2-->
+        <section class="mb-5 pb-5">
+
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to
+                contact me directly. I will get back to you within
+                a matter of hours to help you.</p>
+
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <!-- <form method=”POST” action=”http://formspree.io/your-email-address-goes-here"></form> -->
+                    <form id="contact-form" name="contact-form" action="mailto:jdh.programmer@gmail.com" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                   <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+                    
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">
+                            Send
+                        </a>
                     </div>
+                    <div class="status"></div>
                 </div>
-                <div class="row py-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore
-                    deserunt ipsum qui deleniti quas sit porro commodi suscipit, magnam, nulla quis, nam vero. Saepe
-                    debitis, aliquid quod dolores assumenda, excepturi mollitia sunt enim neque, eius accusamus ea
-                    molestias libero porro dolorem totam magni aut eos molestiae! Consequatur, ratione eum?</div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-3">
-                <div class="row">
-                    <div class="col callouts">DRIVEN</div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Richardson, TX 75080, USA</p>
+                        </li>
+
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>(214) 306-1657</p>
+                        </li>
+
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>jdh.programmer@gmail.com</p>
+                        </li>
+                    </ul>
                 </div>
-                <div class="row">
-                    <div class="col text-center">
-                        <img class="img-fluid rounded mx-auto d-block" src="Assets/Images/callout-driven.jpg" alt="">
-                    </div>
-                </div>
-                <div class="row py-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore
-                    deserunt ipsum qui deleniti quas sit porro commodi suscipit, magnam, nulla quis, nam vero. Saepe
-                    debitis, aliquid quod dolores assumenda, excepturi mollitia sunt enim neque, eius accusamus ea
-                    molestias libero porro dolorem totam magni aut eos molestiae! Consequatur, ratione eum?</div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-3">
-                <div class="row">
-                    <div class="col callouts">PROFESSIONAL</div>
-                </div>
-                <div class="row">
-                    <div class="col text-center">
-                        <img class="img-fluid rounded mx-auto d-block" src="Assets/Images/callout-professional.jpg" alt="">
-                    </div>
-                </div>
-                <div class="row py-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore
-                    deserunt ipsum qui deleniti quas sit porro commodi suscipit, magnam, nulla quis, nam vero. Saepe
-                    debitis, aliquid quod dolores assumenda, excepturi mollitia sunt enim neque, eius accusamus ea
-                    molestias libero porro dolorem totam magni aut eos molestiae! Consequatur, ratione eum?</div>
+                <!--Grid column-->
+
             </div>
 
-
-        </div>
+        </section>
+        <!--Section: Contact v.2-->
 
 
     </main>
@@ -160,7 +201,7 @@
         </div>
     </footer>
 
-    <footer class="footer fixed-bottom">
+    <footer class="footer">
         <div class="container text-center">
             <span class="text-muted">© Copyright 2020 David Harris
             </span>
@@ -170,8 +211,6 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
