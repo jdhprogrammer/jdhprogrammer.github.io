@@ -1,5 +1,5 @@
 
-# 2: Responsiveness Portfolio
+Professional Portfolio
 
 #### Developer: David Harris
 email: jdh.programmer@gmail.com - 
