@@ -5,10 +5,9 @@
 email: jdh.programmer@gmail.com - 
 github: https://github.com/jdhprogrammer
 
-Project Repository: https://github.com/jdhprogrammer/Homework02-1027
+Project Repository: https://github.com/jdhprogrammer/jdhprogrammer.github.io
 
-Project Deployment: https://jdhprogrammer.github.io/Homework02-1027/
-
+Project Deployment: http://www.jdhprogrammer.com/
 ### RESUMÉ
 ---  
 # James DAVID Harris 
