@@ -9,7 +9,6 @@ Project Repository: https://github.com/jdhprogrammer/jdhprogrammer.github.io
 
 Project Deployment: https://jdhprogrammer.com/
 
-Project Deployment: http://www.jdhprogrammer.com/
 ### RESUMÉ
 ---  
 # James DAVID Harris 
