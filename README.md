@@ -1,11 +1,13 @@
 
-# 2: Responsiveness Portfolio
+# Professional Portfolio
 
 #### Developer: David Harris
 email: jdh.programmer@gmail.com - 
 github: https://github.com/jdhprogrammer
 
 Project Repository: https://github.com/jdhprogrammer/jdhprogrammer.github.io
+
+Project Deployment: https://jdhprogrammer.com/
 
 Project Deployment: http://www.jdhprogrammer.com/
 ### RESUMÉ
