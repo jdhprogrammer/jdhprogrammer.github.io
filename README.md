@@ -62,6 +62,7 @@ Working/Learning/Coding for 8 hours outside of class everyday
 - Proficient Computer Skills and Network trouble-shooting.
 - Ability to take/follow instructions or assume a leadership role, always working as one of the team. 
 ```
+---
 
 ![Screenshot of About-Large](Assets/Screenshots/About.jpeg?raw=true "About-large")
 ![Screenshot of Portfolio-Large](Assets/Screenshots/Portfolio.jpeg?raw=true "Portfolio-large")
