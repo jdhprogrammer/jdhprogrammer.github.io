@@ -22,7 +22,15 @@ Project Deployment: https://jdhprogrammer.com/
 
 ### Branding Statement 
 ```
-Full stack web developer with front-end and back-end programming experience educated at SMU Coding Boot camp. Skills in HTML, CSS, JavaScript, and Python and strengths in problem solving, balancing aesthetics with performance, and working with a team. Bringing to the table an extensive background in photography and audio visual technology. Re-designed and programmed Web and Mobile applications for multiple local businesses, with a heavy focus on UX & UI quality to the customer.  Interested in creating websites and applications that people are excited about  and happy to use and that make their lives easier.  Never stop learning… Always be coding.  Prepared to contribute unique ideas and understanding on visual and operational aspects of software. Excited to work with a team of developers eager to learn new things daily, always ready to listen or to lead. 
+Full stack web developer with front-end and back-end programming experience educated at SMU Coding Boot camp. 
+Skills in HTML, CSS, JavaScript, and Python and strengths in problem solving, balancing aesthetics with 
+performance, and working with a team. Bringing to the table an extensive background in photography and
+audio visual technology. Re-designed and programmed Web and Mobile applications for multiple local businesses, 
+with a heavy focus on UX & UI quality to the customer.  Interested in creating websites and applications that 
+people are excited about  and happy to use and that make their lives easier.  
+Never stop learning… Always be coding.  
+Prepared to contribute unique ideas and understanding on visual and operational aspects of software. 
+Excited to work with a team of developers eager to learn new things daily, always ready to listen or to lead. 
 ```
 ---
 ### Work Experience  
@@ -62,6 +70,7 @@ Working/Learning/Coding for 8 hours outside of class everyday
 - Proficient Computer Skills and Network trouble-shooting.
 - Ability to take/follow instructions or assume a leadership role, always working as one of the team. 
 ```
+---
 
 ![Screenshot of About-Large](Assets/Screenshots/About.jpeg?raw=true "About-large")
 ![Screenshot of Portfolio-Large](Assets/Screenshots/Portfolio.jpeg?raw=true "Portfolio-large")
