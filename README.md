@@ -15,13 +15,13 @@ Project Deployment: https://jdhprogrammer.com/
 
 ### Full Stack Web Developer
 
-#### 532 Parkview Lane, Richardson, TX 75080
+#### Richardson, TX
 #### Phone: (214) 306-1657 - E-Mail: jdh.programmer@gmail.com
 
 ---
 
 ### Branding Statement 
-```
+
 Full stack web developer with front-end and back-end programming experience educated at SMU Coding Boot camp. 
 Skills in HTML, CSS, JavaScript, and Python and strengths in problem solving, balancing aesthetics with 
 performance, and working with a team. Bringing to the table an extensive background in photography and
@@ -31,7 +31,7 @@ people are excited about  and happy to use and that make their lives easier.
 Never stop learning… Always be coding.  
 Prepared to contribute unique ideas and understanding on visual and operational aspects of software. 
 Excited to work with a team of developers eager to learn new things daily, always ready to listen or to lead. 
-```
+
 ---
 ### Work Experience  
 
