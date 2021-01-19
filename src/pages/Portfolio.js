@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useContext} from 'react';
+import React, {useEffect, useState} from 'react';
 import Project from "../components/Project/Project"
 
 import Thumb001 from "../portfolio_images/jdh_portfolio_thumb_001.jpg"
@@ -7,12 +7,12 @@ import Thumb003 from "../portfolio_images/jdh_portfolio_thumb_003.jpg"
 import Thumb004 from "../portfolio_images/jdh_portfolio_thumb_004.jpg"
 import Thumb005 from "../portfolio_images/jdh_portfolio_thumb_005.jpg"
 import Thumb006 from "../portfolio_images/jdh_portfolio_thumb_006.jpg"
-// import Thumb007 from "../portfolio_images/jdh_portfolio_thumb_007.jpg"
-// import Thumb008 from "../portfolio_images/jdh_portfolio_thumb_008.jpg"
-// import Thumb009 from "../portfolio_images/jdh_portfolio_thumb_009.jpg"
-// import Thumb010 from "../portfolio_images/jdh_portfolio_thumb_010.jpg"
-// import Thumb011 from "../portfolio_images/jdh_portfolio_thumb_011.jpg"
-// import Thumb012 from "../portfolio_images/jdh_portfolio_thumb_012.jpg"
+import Thumb007 from "../portfolio_images/jdh_portfolio_thumb_007.jpg"
+import Thumb008 from "../portfolio_images/jdh_portfolio_thumb_008.jpg"
+import Thumb009 from "../portfolio_images/jdh_portfolio_thumb_009.jpg"
+import Thumb010 from "../portfolio_images/jdh_portfolio_thumb_010.jpg"
+import Thumb011 from "../portfolio_images/jdh_portfolio_thumb_011.jpg"
+import Thumb012 from "../portfolio_images/jdh_portfolio_thumb_012.jpg"
 
 import Projects from "../utils/projects.json"
 
@@ -20,7 +20,7 @@ import Projects from "../utils/projects.json"
 function Portfolio() {
 
     const [projects, setProjects] = useState(Projects);
-    const [current, setCurrent] = useState({});
+    // const [current, setCurrent] = useState({});
 
     const thumbs = [
         Thumb003,
@@ -28,13 +28,13 @@ function Portfolio() {
         Thumb002,
         Thumb004,
         Thumb005,
-        Thumb006
-        // Thumb007,
-        // Thumb008,
-        // Thumb009,
-        // Thumb010,
-        // Thumb011,
-        // Thumb012
+        Thumb006,
+        Thumb007,
+        Thumb008,
+        Thumb009,
+        Thumb010,
+        Thumb011,
+        Thumb012
     ]
 
     // const thumbs = thumbnails.sort(order)
@@ -45,7 +45,7 @@ function Portfolio() {
 
     // When the component mounts, update the title to be Wikipedia Searcher
     useEffect(() => {
-
+        setProjects(Projects)
     }, []);
 
     // const handleInputChange = event => {

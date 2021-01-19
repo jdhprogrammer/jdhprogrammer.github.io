@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useContext} from 'react';
+import React from 'react';
 import creative from "../Assets/Images/callout-creative.jpg"
 import driven from "../Assets/Images/callout-driven.jpg"
 import professional from "../Assets/Images/callout-professional.jpg"
@@ -6,30 +6,19 @@ import professional from "../Assets/Images/callout-professional.jpg"
 
 function About() {
 
-    const [about, setAbout] = useState({
+    // const [about, setAbout] = useState({});
+    // const [search, setSearch] = useState("");
+    // // When the component mounts, update the title to be Wikipedia Searcher
+    // useEffect(() => {}
+    // }, [search]);
 
-    });
-    const [search, setSearch] = useState("");
+    // const handleInputChange = event => {
+    //     setSearch(event.target.value);
+    // };
+    // const handleFormSubmit = event => {
+    //     event.preventDefault();
+    // };
 
-
-    // When the component mounts, update the title to be Wikipedia Searcher
-    useEffect(() => {
-
-
-        if (!search) {
-            return;
-        }
-
-    }, [search]);
-
-    const handleInputChange = event => {
-        setSearch(event.target.value);
-
-    };
-
-    const handleFormSubmit = event => {
-        event.preventDefault();
-    };
     return (
         <div>
 
