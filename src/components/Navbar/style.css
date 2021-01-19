@@ -1,3 +1,16 @@
-nav.navbar.navbar-default {
-  margin-bottom: 0;
+.Catamaran {
+  font-family: 'Catamaran', sans-serif;
+  /* text-decoration: none; */
+}
+
+.jumbotron {
+  /* background: url('../../Assets/Images/banner-2.jpg') no-repeat center center; */
+  background-size: cover;
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+
+nav {
+  position: absolute;
+  top: 150px;
 }

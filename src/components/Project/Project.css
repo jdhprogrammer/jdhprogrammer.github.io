@@ -1,0 +1,24 @@
+.poFoImg {
+    border: thin lightgrey solid;
+    margin-bottom: 20px;
+}
+
+.poFoLinks {
+    font-size: 10pt;
+    font-weight: 510;
+    color: #343A40;
+    /* background-color: #09A7D8; */
+    padding: 15px;
+    /* border: thin rgb(228, 228, 228) solid; */
+    /* border-radius: 5px; */
+    margin: 30px;
+}
+
+.poFoLinks:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.noShow {
+    display: none;
+}

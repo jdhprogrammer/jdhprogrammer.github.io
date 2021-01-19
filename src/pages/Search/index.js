@@ -7,13 +7,10 @@ import ProjectContext from "../../utils/ProjectContext";
 import API from "../../utils/API";
 
 function Search() {
-  const [articleState, setArticleState] = useState({
-    title: "",
-    url: ""
-  });
-
-  const [search, setSearch] = useState("Wikipedia");
-  const [error, setError] = useState("");
+  const [projects, setProjects] = useState({});
+  const [currentProj, setCurrentProj] = useState({});
+  const [search, setSearch] = useState("");
+  
 
   // When the component mounts, update the title to be Wikipedia Searcher
   useEffect(() => {
@@ -48,7 +45,7 @@ function Search() {
     event.preventDefault();
   };
   return (
-    <ProjectContext.Provider value={articleState}>
+    <ProjectContext.Provider value={pr}>
       <div>
         <Container style={{ minHeight: "100vh" }}>
           <h1 className="text-center">Search For Anything on Wikipedia</h1>

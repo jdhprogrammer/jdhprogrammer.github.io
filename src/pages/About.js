@@ -1,177 +1,108 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, {useEffect, useState, useContext} from 'react';
+import creative from "../Assets/Images/callout-creative.jpg"
+import driven from "../Assets/Images/callout-driven.jpg"
+import professional from "../Assets/Images/callout-professional.jpg"
 
 
 function About() {
-    
+
     const [about, setAbout] = useState({
 
     });
     const [search, setSearch] = useState("");
-    
-  
+
+
     // When the component mounts, update the title to be Wikipedia Searcher
     useEffect(() => {
-      
-  
-      if (!search) {
-        return;
-      }
-  
+
+
+        if (!search) {
+            return;
+        }
+
     }, [search]);
-  
+
     const handleInputChange = event => {
-      setSearch(event.target.value);
-      
+        setSearch(event.target.value);
+
     };
-  
+
     const handleFormSubmit = event => {
-      event.preventDefault();
+        event.preventDefault();
     };
     return (
         <div>
-    <header>
-        <div className="m-auto text-center" style={{"height":"150px"}}>
-            <img src="Assets/Images/jdh-01.png" className="img-fluid" style="height: 150px;" alt="JDHarris Signature" />
-        </div>
 
-        <nav role="navigation" className="navbar-top navbar-expand-md navbar-dark bg-dark pl-3 pr-3 py-2"
-            style="font-family: 'Catamaran', sans-serif; position: absolute; top: 150; left: 0; right: 0; margin: auto; z-index: 1;">
 
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
+            <main role="main" className="container">
 
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav m-auto">
-
-                    <li className="nav-item">
-                        <a className="nav-link" href="index.html">ABOUT</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="portfolio.html">PORTFOLIO</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="contact.html">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <div className="jumbotron jumbotron-fluid" style="position: relative; top: 56px;">
-            <div className="container" style="color: white; ">
-                <h1 className="display-4">James David Harris</h1>
-                <p className="lead" style="font-size: 30px; ">Dallas based FULL STACK Developer</p>
-            </div>
-        </div>
-
-    </header>
-
-    <main role="main" className="container">
-
-        <div className="row text-center pb-4 py-5" style="font-size: 28px; font-style: italic;">
-            <div className="col-12 text-left text-sm-center px-2">Full stack web developer with front-end and back-end
-                programming experience educated at SMU Coding Boot camp. Skills in HTML, CSS, JavaScript, and Python and
-                strengths in problem solving, balancing aesthetics with performance, and working
-                with a team. Bringing to the table an extensive background in photography and audio visual technology.
-                Re-designed and programmed Web and Mobile applications for multiple local businesses, with a focus on UX
-                & UI quality to the customer.
-                Interested in creating websites and applications that people are excited about and happy to use, and
-                that make their lives easier. Never stop learning… Always be coding. Prepared to contribute unique ideas
-                and understanding on visual and
-                operational aspects of software. Excited to work with a team of developers eager to learn new things
-                daily, always ready to listen or to lead.</div>
-        </div>
-        <div className="row justify-content-around text-center py-2">
-            <div className="col-12 col-md-12 col-lg-3">
-                <div className="row">
-                    <div className="col callouts">CREATIVE</div>
+                <div className="row text-center pb-4 py-5" style={{fontSize: "28px", fontStyle: "italic"}}>
+                    <div className="col-12 text-left text-sm-center px-2">Full Stack Developer with hands-on knowledge and experience
+                    with front/back-end development technologies, libraries, &amp; frameworks. Bringing to the table a background in
+                    Audio/Visual Technology and Photography.  Worked on projects in Agile development environments
+                    focusing on UI quality, responsiveness, and optimization. Effective at problem solving,
+                    multi-tasking, debugging, and helping teammates. Strive to be approachable, friendly,
+            communicate clearly, and always continue learning.</div>
                 </div>
-                <div className="row">
-                    <div className="col text-center">
-                        <img className="img-fluid rounded mx-auto d-block" src="Assets/Images/callout-creative.jpg"
-                            alt="" />
-                    </div>
-                </div>
-                <div className="row py-3">Andy ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore
-                    deserunt ipsum qui deleniti quas sit porro commodi suscipit, magnam, nulla quis, nam vero. Saepe
-                    debitis, aliquid quod dolores assumenda, excepturi mollitia
-                    sunt enim neque, eius accusamus ea molestias libero porro doAndy totam magni aut eos molestiae!
+                <div className="row justify-content-around text-center py-2">
+                    <div className="col-12 col-md-12 col-lg-3">
+                        <div className="row">
+                            <div className="col callouts">CREATIVE</div>
+                        </div>
+                        <div className="row">
+                            <div className="col text-center">
+                                <img className="img-fluid rounded mx-auto d-block" src={creative}
+                                    alt="man looking down at camera in hands" />
+                            </div>
+                        </div>
+                        <div className="row py-3">Andy ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore
+                        deserunt ipsum qui deleniti quas sit porro commodi suscipit, magnam, nulla quis, nam vero. Saepe
+                        debitis, aliquid quod dolores assumenda, excepturi mollitia
+                        sunt enim neque, eius accusamus ea molestias libero porro doAndy totam magni aut eos molestiae!
                     Consequatur, ratione eum?</div>
-            </div>
-            <div className="col-12 col-md-12 col-lg-3">
-                <div className="row">
-                    <div className="col callouts">DRIVEN</div>
-                </div>
-                <div className="row">
-                    <div className="col text-center">
-                        <img className="img-fluid rounded mx-auto d-block" src="Assets/Images/callout-driven.jpg" alt="" />
                     </div>
-                </div>
-                <div className="row py-3">Andy ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore
-                    deserunt ipsum qui deleniti quas sit porro commodi suscipit, magnam, nulla quis, nam vero. Saepe
-                    debitis, aliquid quod dolores assumenda, excepturi mollitia
-                    sunt enim neque, eius accusamus ea molestias libero porro doAndy totam magni aut eos molestiae!
+                    <div className="col-12 col-md-12 col-lg-3">
+                        <div className="row">
+                            <div className="col callouts">DRIVEN</div>
+                        </div>
+                        <div className="row">
+                            <div className="col text-center">
+                                <img className="img-fluid rounded mx-auto d-block" src={driven}
+                                    alt="someone running frmo a low angle mainly showing their shoes and the ground and sky" />
+                            </div>
+                        </div>
+                        <div className="row py-3">Andy ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore
+                        deserunt ipsum qui deleniti quas sit porro commodi suscipit, magnam, nulla quis, nam vero. Saepe
+                        debitis, aliquid quod dolores assumenda, excepturi mollitia
+                        sunt enim neque, eius accusamus ea molestias libero porro doAndy totam magni aut eos molestiae!
                     Consequatur, ratione eum?</div>
-            </div>
-            <div className="col-12 col-md-12 col-lg-3">
-                <div className="row">
-                    <div className="col callouts">PROFESSIONAL</div>
-                </div>
-                <div className="row">
-                    <div className="col text-center">
-                        <img className="img-fluid rounded mx-auto d-block" src="Assets/Images/callout-professional.jpg"
-                            alt="" />
                     </div>
+                    <div className="col-12 col-md-12 col-lg-3">
+                        <div className="row">
+                            <div className="col callouts">PROFESSIONAL</div>
+                        </div>
+                        <div className="row">
+                            <div className="col text-center">
+                                <img className="img-fluid rounded mx-auto d-block" src={professional}
+                                    alt="lines of code on a computer monitor" />
+                            </div>
+                        </div>
+                        <div className="row py-3">Andy ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore
+                        deserunt ipsum qui deleniti quas sit porro commodi suscipit, magnam, nulla quis, nam vero. Saepe
+                        debitis, aliquid quod dolores assumenda, excepturi mollitia
+                        sunt enim neque, eius accusamus ea molestias libero porro doAndy totam magni aut eos molestiae!
+                        Consequatur, ratione eum?
                 </div>
-                <div className="row py-3">Andy ipsum dolor sit amet consectetur, adipisicing elit. Laudantium inventore
-                    deserunt ipsum qui deleniti quas sit porro commodi suscipit, magnam, nulla quis, nam vero. Saepe
-                    debitis, aliquid quod dolores assumenda, excepturi mollitia
-                    sunt enim neque, eius accusamus ea molestias libero porro doAndy totam magni aut eos molestiae!
-                    Consequatur, ratione eum?
+                    </div>
+
                 </div>
-            </div>
+
+            </main>
+
 
         </div>
-
-    </main>
-
-    <div className="page-footer py-2 text-center">
-        <div className="container">
-
-            <a href="https://www.linkedin.com/in/david-harris-75080/" target="blank" className="icon-block">
-                <i className="fab fa-linkedin linkedin fa-2x p-3"></i>
-            </a>
-
-            <a href="Assets/Profesional_Docs/JDH_FullStackDeveloper_Resume_2020.pdf" target="_blank" className="icon-block">
-                <i className="far facebook  fa-file-alt fa-2x p-3"></i>
-            </a>
-
-            <a href="https://github.com/jdhprogrammer" target="_blank" className="icon-block">
-                <i className="fab fa-github-square github fa-2x p-3"></i>
-            </a>
-
-            <a href="https://www.instagram.com/jdh_programmer/" target="_blank" className="icon-block">
-                <i className="fa fa-instagram instagram fa-2x p-3"></i>
-            </a>
-
-            <a href="#" target="_blank" className="icon-block">
-                <i className="fab fa-twitter-square twitter fa-2x p-3"></i>
-            </a>
-
-       
-    </div>
-    <div className="footer fixed-bottom">
-        <div className="container text-center">
-            <span className="text-muted">© Copyright 2020 David Harris
-            </span>
-        </div>
-    </div>
-    </div>
-    </div>
 
     );
-  }
-  
-  export default About;
-  
+}
+
+export default About;

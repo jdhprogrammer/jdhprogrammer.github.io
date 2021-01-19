@@ -102,3 +102,10 @@ Make sure to update your LinkedIn Profile with the new skills you've acquired si
 
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+
+
+
+credits -----
+
+https://gist.github.com/lmcneel/45594e550a3403d589bdcaad38138a83, 

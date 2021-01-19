@@ -16,12 +16,19 @@ body {
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 60px;
-    line-height: 60px;
+    height: 120px;
+    line-height: 35px;
     /* Vertically center the text there */
-    background-color: #f5f5f5;
+    
 }
 
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: #f5f5f5;
+}
 
 /* Custom page CSS
   -------------------------------------------------- */
@@ -29,13 +36,16 @@ body {
 
 /* Not required for template or sticky footer method. */
 
-body>.container {
+body.container {
     padding: 60px 15px 0;
 }
 
-.footer>.container {
-    padding-right: 15px;
-    padding-left: 15px;
+.footer {
+    padding: 10px;
+}
+
+.footer.container {
+    width: 100%;
 }
 
 code {
